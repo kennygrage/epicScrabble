@@ -1,0 +1,38 @@
+convert string into array with each element being one letter of the original string
+foreach loop analyzing each letter
+make the letter lowercase
+find ascii value of letter and save it into variable
+if letter is not between the ascii value of 97 thru 122, error out
+subtract 97 from variable
+
+
+letter value array
+letter  -   array element   -   score
+a       -     0             -     1
+b       -     1             -     3
+c       -     2             -     3
+d       -     3             -     2
+e       -     4             -     1
+f       -     5             -     4
+g       -     6             -     2
+h       -     7             -     4
+i       -     8             -     1
+j       -     9             -     8
+k       -     10            -     5
+l       -     11            -     1
+m       -     12            -     3
+n       -     13            -     1
+o       -     14            -     1
+p       -     15            -     3
+q       -     16            -     10
+r       -     17            -     1
+s       -     18            -     1
+t       -     19            -     1
+u       -     20            -     1
+v       -     21            -     4
+w       -     22            -     4
+x       -     23            -     8
+y       -     24            -     4
+z       -     25            -     10
+
+$letter_value_array = (1,3,3,2,1,4,2,4,1,8,5,1,3,1,1,3,10,1,1,1,1,4,4,8,4,10);
