@@ -12,7 +12,7 @@
                         return "Please enter one word at a time";
                     }
                     else {
-                        return "$letter is not a valid character";
+                        return "\"$letter\" is not a valid character";
                     }
                 }
                 $total_value_of_word += ScrabbleCalc::getPointValue($letter_place);
