@@ -2,6 +2,7 @@
     class ScrabbleCalc {
         function calcValue($input) {
             $total_value_of_word = 0;
+            $input = strtolower($input);
             $array_input = str_split($input);
 
             foreach ($array_input as $letter) {
